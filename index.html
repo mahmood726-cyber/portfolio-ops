@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PortfolioOps</title>
+  <meta name="description" content="Operational fusion dashboard for the C-drive research portfolio.">
+  <style>
+    :root {
+      --bg: #f4efe8;
+      --ink: #1a1d20;
+      --muted: #5b6470;
+      --line: rgba(26, 29, 32, 0.12);
+      --panel: rgba(255, 251, 246, 0.94);
+      --accent: #0f766e;
+      --accent-2: #9a3412;
+      --shadow: 0 24px 60px rgba(26, 29, 32, 0.12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Bahnschrift", "Trebuchet MS", "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 14% 18%, rgba(15, 118, 110, 0.12), transparent 22%),
+        radial-gradient(circle at 82% 18%, rgba(154, 52, 18, 0.12), transparent 22%),
+        linear-gradient(180deg, #faf5ee 0%, #ece2d6 100%);
+    }
+    main {
+      width: min(1180px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 28px 0 64px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+    .hero, .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .hero { grid-template-columns: minmax(0, 1.15fr) minmax(300px, 0.85fr); }
+    .eyebrow {
+      margin: 0 0 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.76rem;
+      color: var(--accent);
+      font-weight: 700;
+    }
+    h1, h2 {
+      margin: 0;
+      line-height: 1.02;
+      letter-spacing: -0.03em;
+    }
+    h1 { font-size: clamp(2.3rem, 5vw, 4.8rem); }
+    h2 { font-size: 1.45rem; }
+    p { line-height: 1.7; color: var(--muted); }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 16px;
+      background: rgba(255, 255, 255, 0.72);
+    }
+    .label {
+      display: block;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .value {
+      font-size: 2rem;
+      line-height: 1;
+      color: var(--ink);
+      font-weight: 700;
+    }
+    .stack {
+      display: grid;
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 12px;
+      align-items: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .row:last-child { border-bottom: 0; padding-bottom: 0; }
+    .row strong { display: block; color: var(--ink); }
+    .row span { display: block; color: var(--muted); }
+    .pill {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(15, 118, 110, 0.12);
+      color: var(--accent);
+      font-size: 0.9rem;
+      font-weight: 700;
+      white-space: normal;
+      overflow-wrap: anywhere;
+      text-align: right;
+    }
+    a { color: var(--accent-2); font-weight: 700; text-decoration: none; }
+    .section { margin-top: 18px; }
+    @media (max-width: 860px) {
+      .hero, .grid, .stats { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="panel hero">
+      <div>
+        <p class="eyebrow">Fusion Layer</p>
+        <h1>PortfolioOps</h1>
+        <p>
+          A new operating surface that fuses declared status, live folder evidence, rule-based triage, and FAIR-style
+          maturity into one readiness model so the portfolio can be managed instead of merely indexed.
+        </p>
+      </div>
+      <aside class="panel" style="padding:18px">
+        <p class="eyebrow" style="margin-bottom:10px">Ops Metrics</p>
+        <div class="stats" id="metric-grid"></div>
+      </aside>
+    </section>
+    <section class="grid section">
+      <section class="panel">
+        <p class="eyebrow">Action Mix</p>
+        <h2>What the portfolio needs next</h2>
+        <div class="stack" id="action-breakdown"></div>
+      </section>
+      <section class="panel">
+        <p class="eyebrow">Best Tiers</p>
+        <h2>Tiers with the strongest operational backing</h2>
+        <div class="stack" id="best-tiers"></div>
+      </section>
+    </section>
+    <section class="grid section">
+      <section class="panel">
+        <p class="eyebrow">Backed Projects</p>
+        <h2>Projects that already look operationally complete</h2>
+        <div class="stack" id="backed-projects"></div>
+      </section>
+      <section class="panel">
+        <p class="eyebrow">Priority Queue</p>
+        <h2>Projects needing intervention first</h2>
+        <div class="stack" id="priority-queue"></div>
+      </section>
+    </section>
+    <section class="panel section">
+      <p class="eyebrow">Top Projects</p>
+      <h2>Highest readiness scores</h2>
+      <div class="stack" id="top-projects"></div>
+    </section>
+    <section class="panel section">
+      <p class="eyebrow">Artifacts</p>
+      <h2>Repo outputs</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="label">Readiness file</span>
+          <strong>ops-readiness.json</strong>
+          <p>The merged per-project readiness model across metadata, telemetry, triage, and FAIR proxies.</p>
+          <a href="ops-readiness.json">Open readiness file</a>
+        </article>
+        <article class="card">
+          <span class="label">Builder</span>
+          <strong>scripts/build_portfolio_ops.py</strong>
+          <p>Snapshot-first generator that fuses outputs from the earlier portfolio projects.</p>
+          <a href="scripts/build_portfolio_ops.py">Open builder</a>
+        </article>
+        <article class="card">
+          <span class="label">Reader</span>
+          <strong>e156-submission/index.html</strong>
+          <p>The E156 paper and protocol capsule for the fusion method.</p>
+          <a href="e156-submission/index.html">Open E156 reader</a>
+        </article>
+        <article class="card">
+          <span class="label">Source bundle</span>
+          <strong>data-source/</strong>
+          <p>Bundled portfolio, live-scan, triage, and FAIR snapshots used for reproducible rebuilds.</p>
+          <a href="data-source/">Open bundled sources</a>
+        </article>
+      </div>
+    </section>
+  </main>
+  <script src="data.js"></script>
+  <script>
+    const data = window.PORTFOLIO_OPS_DATA;
+    function card(label, value) {
+      return '<div class="card"><span class="label">' + label + '</span><span class="value">' + value + '</span></div>';
+    }
+    function row(title, subtitle, value) {
+      return '<div class="row"><div><strong>' + title + '</strong><span>' + subtitle + '</span></div><span class="pill">' + value + '</span></div>';
+    }
+    document.getElementById('metric-grid').innerHTML = [
+      card('Projects', data.metrics.trackedProjects),
+      card('Mean readiness', data.metrics.meanReadiness),
+      card('Resolved status', data.metrics.resolvedStatusCount),
+      card('Ops-backed', data.metrics.operationallyBackedCount)
+    ].join('');
+    document.getElementById('action-breakdown').innerHTML = data.actionBreakdown.map(function(item) {
+      return row(item.action, 'Projects with this primary next step', item.count);
+    }).join('');
+    document.getElementById('best-tiers').innerHTML = data.bestTiers.map(function(item) {
+      return row(item.tier, item.count + ' projects', item.meanReadiness);
+    }).join('');
+    document.getElementById('backed-projects').innerHTML = data.backedProjects.map(function(item) {
+      return row(item.name, item.tier + ' | ' + item.resolvedStatus, item.readinessScore + '/100');
+    }).join('');
+    document.getElementById('priority-queue').innerHTML = data.priorityQueue.map(function(item) {
+      return row(item.name, item.primaryAction + ' | ' + item.tier, item.readinessScore + '/100');
+    }).join('');
+    document.getElementById('top-projects').innerHTML = data.topProjects.map(function(item) {
+      return row(item.name, item.tier + ' | ' + item.primaryAction, item.readinessScore + '/100');
+    }).join('');
+  </script>
+</body>
+</html>

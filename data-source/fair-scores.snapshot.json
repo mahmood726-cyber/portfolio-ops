@@ -1,0 +1,4772 @@
+{
+  "project": "FAIRPortfolio",
+  "generatedAt": "2026-03-30T08:48:24+00:00",
+  "overview": {
+    "sourcePath": "data-source/INDEX.snapshot.md",
+    "trackedProjects": 134,
+    "meanTotalScore": 48.6,
+    "medianTotalScore": 48.0,
+    "score70Count": 19,
+    "score70Percent": 14.2,
+    "score60Count": 37,
+    "score60Percent": 27.6,
+    "strongCount": 9,
+    "strongPercent": 6.7,
+    "weakCount": 47,
+    "weakPercent": 35.1
+  },
+  "scores": [
+    {
+      "id": "6",
+      "name": "AdaptSim",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "HTML app",
+      "path": "C:\\AdaptSim\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 25,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 80
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "name": "Al-Mizan",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "HTML app",
+      "path": "C:\\AlMizan\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 25,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 80
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "name": "Bias Forensics",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "Python pipeline",
+      "path": "C:\\BiasForensics\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 20,
+        "reusable": 20,
+        "total": 63
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Python pipeline technical form",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "name": "CardioOracle",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "HTML app",
+      "path": "C:\\Models\\CardioOracle\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 20,
+        "interoperable": 5,
+        "reusable": 15,
+        "total": 58
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "name": "Clinic Website",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "Static site",
+      "path": "C:\\Projects\\clinic-site\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 25,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 80
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 Static site delivery pattern",
+          "+5 browser-facing access signal",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "Fragility Atlas",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "Pipeline+Dashboard",
+      "path": "C:\\FragilityAtlas\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 20,
+        "interoperable": 20,
+        "reusable": 15,
+        "total": 73
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 Pipeline+Dashboard delivery pattern",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Pipeline+Dashboard technical form",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "MetaReproducer",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "Python pipeline+HTML",
+      "path": "C:\\Models\\MetaReproducer\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 15,
+        "interoperable": 20,
+        "reusable": 20,
+        "total": 73
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 Python pipeline+HTML delivery pattern"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Python pipeline+HTML technical form",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "68",
+      "name": "3dvitreous-grapher",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\3dvitreous-grapher\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "63",
+      "name": "Asa",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\Asa\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "73a",
+      "name": "Asa",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\Asa\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "109",
+      "name": "Bayesian MA",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\BayesianMA\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "107",
+      "name": "BenfordMA",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\BenfordMA\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 15,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "103",
+      "name": "Component NMA",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\ComponentNMA\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "66",
+      "name": "ctgov-search-strategies",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\ctgov-search-strategies\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 5,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 distribution or interface signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "67",
+      "name": "cv-rct-analysis",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\cv-rct-analysis\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "108",
+      "name": "Evidence Half-Life",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\EvidenceHalfLife\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 15,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "105",
+      "name": "EvidenceQuality (Concordance)",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\EvidenceQuality\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 15,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "73f",
+      "name": "Living MA Engine",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\living-meta-engine\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 15,
+        "reusable": 5,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "69",
+      "name": "LivingMeta Watchman",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\LivingMeta_Watchman_Amulet\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "106",
+      "name": "MA Power",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MAPowerCalc\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "110",
+      "name": "MA Workbench",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MAWorkbench\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "113",
+      "name": "Meta-Regression",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MetaRegression\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 53
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "65",
+      "name": "MetaExtract",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\MetaExtract\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "79",
+      "name": "MetaGuard",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MetaGuard\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 20,
+        "reusable": 15,
+        "total": 58
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "80",
+      "name": "MetaMethods",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MetaMethods\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 20,
+        "reusable": 20,
+        "total": 63
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "108a",
+      "name": "MetaShift",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\MetaShift\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 15,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "73",
+      "name": "minireview",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\minireview\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "73d",
+      "name": "new-app",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\new-app\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "73b",
+      "name": "oman",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\oman\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "70",
+      "name": "PFA AF LivingMeta",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\PFA_AF_LivingMeta\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 10,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "112",
+      "name": "Pooling Suite",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\PoolingSuite\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 53
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "73e",
+      "name": "Portfolio Site",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\portfolio-site\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 15,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal",
+          "+5 distribution or interface signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "107",
+      "name": "PRISMA Checker",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\PRISMAChecker\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "111",
+      "name": "Pub Bias Suite",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\PubBiasSuite\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 53
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "72",
+      "name": "rayyanreplacement",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\rayyanreplacement\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 10,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "104",
+      "name": "RMST Meta",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\RMSTmeta\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 15,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "102",
+      "name": "RoB Assessor",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\RoBAssessor\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 53
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "73c",
+      "name": "superapp",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\superapp\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "64",
+      "name": "TrialRadar",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\TrialRadar\\",
+      "status": "Review",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "71",
+      "name": "Tricuspid TEER",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\Tricuspid_TEER_LivingMeta\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 10,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "76",
+      "name": "childnajia",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\childnajia\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "74",
+      "name": "Clinic Site",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\clinic-site\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 15,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 60
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "75",
+      "name": "Private Website",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\private-website\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 15,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal",
+          "+5 distribution or interface signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "78",
+      "name": "Stories",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\Stories\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "77",
+      "name": "waternajia",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\waternajia\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "97",
+      "name": "advanced-nma-pooling",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "102",
+      "name": "claude-plugins",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "101",
+      "name": "claude-rct-work",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "85",
+      "name": "esc-acs-living-meta",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "93",
+      "name": "everything-claude-code",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 10,
+        "total": 30
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "80",
+      "name": "evidence-inference",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "91",
+      "name": "experimental-meta-analysis",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "104",
+      "name": "glm-code",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "83",
+      "name": "hfpef_registry_calibration",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "82",
+      "name": "hfpef_registry_synth",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "92",
+      "name": "idea12",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "94",
+      "name": "ipd-meta-pro-link",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "95",
+      "name": "ipd_qma_project",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "81",
+      "name": "llm-meta-analysis",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "88",
+      "name": "MAFI",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "89",
+      "name": "MAFI-Continuation",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "90",
+      "name": "maxent-reconstructor",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "79",
+      "name": "meta-epidemiology-bias-correction",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 17,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 52
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "100",
+      "name": "MetaFusion-Lab",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "86",
+      "name": "Metanew",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 10,
+        "total": 30
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "87",
+      "name": "MLM501",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "103",
+      "name": "Multipledatameta",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "96",
+      "name": "prognostic-meta",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 15,
+        "total": 40
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "84",
+      "name": "registry_first_rct_meta",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "99",
+      "name": "surroNMA",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 25
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "98",
+      "name": "tower",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 10,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 10,
+        "total": 30
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "name": "Dose-Response NMA",
+      "tier": "Tier 2",
+      "tierName": "Tier 2 \u2014 HTML Apps Portfolio",
+      "type": "HTML app",
+      "path": "C:\\HTML apps\\nma-dose-response-app\\",
+      "status": "Archived",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 20,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "name": "DTA Pro",
+      "tier": "Tier 2",
+      "tierName": "Tier 2 \u2014 HTML Apps Portfolio",
+      "type": "HTML app",
+      "path": "C:\\HTML apps\\DTA_Pro_Review\\",
+      "status": "Archived",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 20,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 75
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "name": "HTA Artifact Standard",
+      "tier": "Tier 2",
+      "tierName": "Tier 2 \u2014 HTML Apps Portfolio",
+      "type": "HTML app",
+      "path": "C:\\HTML apps\\HTA\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 25,
+        "interoperable": 20,
+        "reusable": 20,
+        "total": 90
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "name": "IPD-Meta-Pro",
+      "tier": "Tier 2",
+      "tierName": "Tier 2 \u2014 HTML Apps Portfolio",
+      "type": "HTML app",
+      "path": "C:\\HTML apps\\IPD-Meta-Pro\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 25,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 80
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "name": "Living-Meta",
+      "tier": "Tier 2",
+      "tierName": "Tier 2 \u2014 HTML Apps Portfolio",
+      "type": "HTML app",
+      "path": "C:\\HTML apps\\living-meta\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 20,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "name": "NMA apps",
+      "tier": "Tier 2",
+      "tierName": "Tier 2 \u2014 HTML Apps Portfolio",
+      "type": "HTML app",
+      "path": "C:\\HTML apps\\NMAhtml\\",
+      "status": "Archived",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 20,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "name": "Pairwise AI",
+      "tier": "Tier 2",
+      "tierName": "Tier 2 \u2014 HTML Apps Portfolio",
+      "type": "HTML app",
+      "path": "C:\\HTML apps\\Pairwiseai\\",
+      "status": "Archived",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 20,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "name": "TruthCert PairwisePro",
+      "tier": "Tier 2",
+      "tierName": "Tier 2 \u2014 HTML Apps Portfolio",
+      "type": "HTML app",
+      "path": "C:\\HTML apps\\Truthcert1_work\\",
+      "status": "Maintained",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 25,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 80
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+10 HTML app delivery pattern",
+          "+5 browser-facing access signal",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "name": "Finrenone RapidMeta",
+      "tier": "Tier 3",
+      "tierName": "Tier 3 \u2014 MetaSprint Family (C:\\Projects\\)",
+      "type": "Project",
+      "path": "C:\\Projects\\Finrenone\\",
+      "status": "Archived",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 15,
+        "interoperable": 20,
+        "reusable": 20,
+        "total": 80
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal",
+          "+5 distribution or interface signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "name": "MetaSprint Autopilot",
+      "tier": "Tier 3",
+      "tierName": "Tier 3 \u2014 MetaSprint Family (C:\\Projects\\)",
+      "type": "Project",
+      "path": "C:\\Projects\\metasprint-autopilot\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "name": "MetaSprint Cardio Universe",
+      "tier": "Tier 3",
+      "tierName": "Tier 3 \u2014 MetaSprint Family (C:\\Projects\\)",
+      "type": "Project",
+      "path": "C:\\Projects\\metasprint-cardio-universe\\",
+      "status": "Active",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "name": "MetaSprint Dose-Response",
+      "tier": "Tier 3",
+      "tierName": "Tier 3 \u2014 MetaSprint Family (C:\\Projects\\)",
+      "type": "Project",
+      "path": "C:\\Projects\\metasprint-dose-response\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "name": "MetaSprint DTA",
+      "tier": "Tier 3",
+      "tierName": "Tier 3 \u2014 MetaSprint Family (C:\\Projects\\)",
+      "type": "Project",
+      "path": "C:\\Projects\\metasprint-dta\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "name": "MetaSprint NMA",
+      "tier": "Tier 3",
+      "tierName": "Tier 3 \u2014 MetaSprint Family (C:\\Projects\\)",
+      "type": "Project",
+      "path": "C:\\Projects\\metasprintnma\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "name": "501MLM",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\501MLM\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "37b",
+      "name": "501MLM_Submission",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\501MLM_Submission\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "name": "CRES",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Model",
+      "path": "C:\\Models\\CRES\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 20,
+        "total": 70
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "name": "GRMA",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Model",
+      "path": "C:\\Models\\GRMA_paper\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 10,
+        "total": 60
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "name": "GWAM",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Model",
+      "path": "C:\\Models\\GWAM\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 20,
+        "total": 70
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "name": "HeterogeneityASE",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Model",
+      "path": "C:\\Models\\New_Heterogeneity_Model\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 20,
+        "total": 70
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "name": "IPD-QMA",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Model",
+      "path": "C:\\Models\\IPD_QMA\\",
+      "status": "Accepted",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 20,
+        "total": 70
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "37a",
+      "name": "LFA (cbamm)",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\LFA\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "name": "MEM (Meta Ecosystem)",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Model",
+      "path": "C:\\Models\\Meta_Ecosystem_Model\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 10,
+        "total": 60
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "name": "metaoverfit",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\metaoverfit\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "37c",
+      "name": "metaoverfit-paper",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\metaoverfit-paper\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 50
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "33",
+      "name": "metaverse-robust-MA",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\metaverse-robust-MA\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "34",
+      "name": "MLMResearch",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\MLMResearch\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "35",
+      "name": "Paper1 (cbamm)",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\Paper1\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 50
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "36",
+      "name": "Paper2",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\Paper2.111025\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 50
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "31",
+      "name": "pub-bias-simulation",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\pub-bias-simulation\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 60
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "32",
+      "name": "rmstnma",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\rmstnma\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 60
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "name": "SYNTHESIS (FATIHA)",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Model",
+      "path": "C:\\Models\\FATIHA_Project\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 20,
+        "total": 70
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "106",
+      "name": "UBCMA",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Root-level project",
+      "path": "C:\\ubcma\\",
+      "status": "Active",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "37",
+      "name": "wasserstein",
+      "tier": "Tier 4",
+      "tierName": "Tier 4 \u2014 R Packages & Methods Papers",
+      "type": "Project",
+      "path": "C:\\Projects\\wasserstein\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "39",
+      "name": "CausalSynth",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Model",
+      "path": "C:\\Models\\CausalSynth\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "40d",
+      "name": "EvidenceGapMap",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Root-level project",
+      "path": "C:\\EvidenceGapMap\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 50
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "40",
+      "name": "MAPriors",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Model",
+      "path": "C:\\Models\\MAPriors\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "38",
+      "name": "MultiverseMA",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Model",
+      "path": "C:\\Models\\MultiverseMA\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 15,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "40a",
+      "name": "OutcomeReportingBias",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Root-level project",
+      "path": "C:\\OutcomeReportingBias\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "40b",
+      "name": "OverlapDetector",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Root-level project",
+      "path": "C:\\OverlapDetector\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 65
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "40c",
+      "name": "PredictionGap",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Root-level project",
+      "path": "C:\\PredictionGap\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 15,
+        "interoperable": 10,
+        "reusable": 20,
+        "total": 70
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "43",
+      "name": "CochraneDataExtractor",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\CochraneDataExtractor\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 15,
+        "reusable": 10,
+        "total": 48
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "44",
+      "name": "Dataextractor",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\Dataextractor\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 15,
+        "reusable": 5,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "48",
+      "name": "DTA70",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\DTA70\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 15,
+        "reusable": 5,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "45",
+      "name": "KMcurve",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\KMcurve\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "42",
+      "name": "Pairwise70",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Model",
+      "path": "C:\\Models\\Pairwise70\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 5,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "41",
+      "name": "RCT Extractor v2",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\rct-extractor-v2\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 15,
+        "reusable": 15,
+        "total": 53
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal"
+        ]
+      }
+    },
+    {
+      "id": "46",
+      "name": "repo100",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\repo100\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 15,
+        "reusable": 5,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "47",
+      "name": "repo300-ENMA-SNMA",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\repo300-ENMA-SNMA\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "54",
+      "name": "AutoGRADE",
+      "tier": "Tier 7",
+      "tierName": "Tier 7 \u2014 HTA Suite",
+      "type": "Project",
+      "path": "C:\\Projects\\AutoGRADE\\",
+      "status": "Shipped",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "49",
+      "name": "HTA Evidence Integrity",
+      "tier": "Tier 7",
+      "tierName": "Tier 7 \u2014 HTA Suite",
+      "type": "Model",
+      "path": "C:\\Models\\HTA_Evidence_Integrity_Suite\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 25,
+        "total": 75
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 explicit intended reuse signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "53",
+      "name": "HTA Oman",
+      "tier": "Tier 7",
+      "tierName": "Tier 7 \u2014 HTA Suite",
+      "type": "Project",
+      "path": "C:\\Projects\\HTA-oman\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 5,
+        "interoperable": 10,
+        "reusable": 10,
+        "total": 50
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "50",
+      "name": "HTA Transportability",
+      "tier": "Tier 7",
+      "tierName": "Tier 7 \u2014 HTA Suite",
+      "type": "Model",
+      "path": "C:\\Models\\HTA_Transportability_Engine\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 25,
+        "reusable": 20,
+        "total": 80
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+10 interchange or automation signal",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "52",
+      "name": "HTA Unified Intel",
+      "tier": "Tier 7",
+      "tierName": "Tier 7 \u2014 HTA Suite",
+      "type": "Model",
+      "path": "C:\\Models\\HTA_Unified_Intelligence_System\\",
+      "status": "Paused",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 5,
+        "interoperable": 15,
+        "reusable": 10,
+        "total": 55
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "51",
+      "name": "Value-Based HTA",
+      "tier": "Tier 7",
+      "tierName": "Tier 7 \u2014 HTA Suite",
+      "type": "Model",
+      "path": "C:\\Models\\Value_Based_HTA_Engine\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 25,
+        "reusable": 20,
+        "total": 80
+      },
+      "band": "strong",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+10 interchange or automation signal",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+10 quality or maturity signal",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "56",
+      "name": "Fatiha Course",
+      "tier": "Tier 8",
+      "tierName": "Tier 8 \u2014 Educational & Course Material",
+      "type": "Project",
+      "path": "C:\\Projects\\Fatiha-Course\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 10,
+        "total": 38
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "57",
+      "name": "Fatiha Course v2",
+      "tier": "Tier 8",
+      "tierName": "Tier 8 \u2014 Educational & Course Material",
+      "type": "Project",
+      "path": "C:\\Projects\\Fatiha-course-github-v2\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 5,
+        "reusable": 10,
+        "total": 43
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 distribution or interface signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "55",
+      "name": "Synthesis Course",
+      "tier": "Tier 8",
+      "tierName": "Tier 8 \u2014 Educational & Course Material",
+      "type": "Course material",
+      "path": "(in HTML apps or user home)",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 10,
+        "total": 53
+      },
+      "band": "partial",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 browser-facing access signal"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+10 interchange or automation signal"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 explicit intended reuse signal"
+        ]
+      }
+    },
+    {
+      "id": "59",
+      "name": "Burhan",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Project",
+      "path": "C:\\Projects\\Burhan\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "60",
+      "name": "IPD Zahid",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Project",
+      "path": "C:\\Projects\\IPD Zahid\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "58",
+      "name": "Shahzaib ICU",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Model",
+      "path": "C:\\Models\\shahzaib-icu-landscape\\",
+      "status": "Submission ready",
+      "statusExplicit": true,
+      "scores": {
+        "findable": 25,
+        "accessible": 10,
+        "interoperable": 15,
+        "reusable": 10,
+        "total": 60
+      },
+      "band": "emerging",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root",
+          "+7 explicit lifecycle label present"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot",
+          "+5 non-stalled explicit status"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema",
+          "+5 Model technical form",
+          "+5 status normalized into portfolio vocabulary"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present",
+          "+5 lifecycle state preserved"
+        ]
+      }
+    },
+    {
+      "id": "61",
+      "name": "WorldIPD",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Project",
+      "path": "C:\\Projects\\WorldIPD\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    },
+    {
+      "id": "62",
+      "name": "WorldIPD-private",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Project",
+      "path": "C:\\Projects\\WorldIPD-private\\",
+      "status": "Needs triage",
+      "statusExplicit": false,
+      "scores": {
+        "findable": 18,
+        "accessible": 5,
+        "interoperable": 5,
+        "reusable": 5,
+        "total": 33
+      },
+      "band": "weak",
+      "reasons": {
+        "findable": [
+          "+10 named record with tier placement",
+          "+8 specific path rather than generic root"
+        ],
+        "accessible": [
+          "+5 path recorded in the snapshot"
+        ],
+        "interoperable": [
+          "+5 record sits inside a structured portfolio schema"
+        ],
+        "reusable": [
+          "+5 descriptive project detail present"
+        ]
+      }
+    }
+  ]
+}

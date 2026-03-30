@@ -1,0 +1,1486 @@
+{
+  "project": "TriageWorkbench",
+  "generatedAt": "2026-03-30T08:46:00+00:00",
+  "overview": {
+    "sourcePath": "data-source/INDEX.snapshot.md",
+    "trackedProjects": 134,
+    "unresolvedProjects": 83,
+    "recommendedNonTriage": 54,
+    "recommendedNonTriagePercent": 65.1,
+    "mediumOrHighCount": 35,
+    "mediumOrHighPercent": 42.2,
+    "highConfidenceCount": 19,
+    "highConfidencePercent": 22.9
+  },
+  "recommendations": [
+    {
+      "id": "5",
+      "name": "Bias Forensics",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "Python pipeline",
+      "path": "C:\\BiasForensics\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 16,
+      "margin": 9,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'pipeline'",
+        "Matched 'forensics'",
+        "Matched 'methods'"
+      ],
+      "sourceStatus": ""
+    },
+    {
+      "id": "1",
+      "name": "CardioOracle",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "HTML app",
+      "path": "C:\\Models\\CardioOracle\\",
+      "recommendedStatus": "submission-ready",
+      "recommendedStatusLabel": "Submission ready",
+      "confidence": "high",
+      "score": 11,
+      "margin": 6,
+      "rationale": [
+        "Matched 'journal'",
+        "Matched 'target'",
+        "Matched 'lancet'"
+      ],
+      "sourceStatus": ""
+    },
+    {
+      "id": "2",
+      "name": "Fragility Atlas",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "Pipeline+Dashboard",
+      "path": "C:\\FragilityAtlas\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 11,
+      "margin": 0,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'pipeline'",
+        "Pipeline+Dashboard prior"
+      ],
+      "sourceStatus": ""
+    },
+    {
+      "id": "3",
+      "name": "MetaReproducer",
+      "tier": "Tier 1",
+      "tierName": "Tier 1 \u2014 Flagship Projects (active or near-submission)",
+      "type": "Python pipeline+HTML",
+      "path": "C:\\Models\\MetaReproducer\\",
+      "recommendedStatus": "submission-ready",
+      "recommendedStatusLabel": "Submission ready",
+      "confidence": "medium",
+      "score": 16,
+      "margin": 1,
+      "rationale": [
+        "Matched 'manuscript'",
+        "Matched 'journal'",
+        "Matched 'target'",
+        "Matched 'bmj'"
+      ],
+      "sourceStatus": ""
+    },
+    {
+      "id": "68",
+      "name": "3dvitreous-grapher",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\3dvitreous-grapher\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 0,
+      "margin": 0,
+      "rationale": [
+        "No rule-based signal exceeded zero."
+      ],
+      "sourceStatus": "3D visualization"
+    },
+    {
+      "id": "63",
+      "name": "Asa",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\Asa\\",
+      "recommendedStatus": "review",
+      "recommendedStatusLabel": "Review",
+      "confidence": "high",
+      "score": 20,
+      "margin": 10,
+      "rationale": [
+        "Matched 'review clean'",
+        "Matched 'review'",
+        "Review-clean override"
+      ],
+      "sourceStatus": "v2.0.0, 7 fangs, 85/85 tests, REVIEW CLEAN"
+    },
+    {
+      "id": "73a",
+      "name": "Asa",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\Asa\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Model prior"
+      ],
+      "sourceStatus": "Forensic data integrity screener (2026-03-25)"
+    },
+    {
+      "id": "109",
+      "name": "Bayesian MA",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\BayesianMA\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 10,
+      "margin": 10,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'v1.0'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.0, 25/25 tests, normal-normal hierarchical"
+    },
+    {
+      "id": "107",
+      "name": "BenfordMA",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\BenfordMA\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 6,
+      "margin": 2,
+      "rationale": [
+        "Matched 'v1.0'",
+        "Matched 'forensics'"
+      ],
+      "sourceStatus": "v1.0, 1,488 lines, Benford digit forensics for 403 reviews, MAD=0.020"
+    },
+    {
+      "id": "103",
+      "name": "Component NMA",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\ComponentNMA\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 10,
+      "margin": 10,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'v1.1'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.1, 25/25 tests, cNMA + interactions + RE"
+    },
+    {
+      "id": "66",
+      "name": "ctgov-search-strategies",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\ctgov-search-strategies\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 4,
+      "margin": 4,
+      "rationale": [
+        "Matched 'api'"
+      ],
+      "sourceStatus": "API integrations"
+    },
+    {
+      "id": "67",
+      "name": "cv-rct-analysis",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\cv-rct-analysis\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "medium",
+      "score": 4,
+      "margin": 1,
+      "rationale": [
+        "Matched 'dashboard'"
+      ],
+      "sourceStatus": "Analysis dashboard"
+    },
+    {
+      "id": "108",
+      "name": "Evidence Half-Life",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\EvidenceHalfLife\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 4,
+      "margin": 0,
+      "rationale": [
+        "Matched 'tests'"
+      ],
+      "sourceStatus": "Cumulative multiverse, 307 reviews, 15 tests, 57% never stabilize"
+    },
+    {
+      "id": "105",
+      "name": "EvidenceQuality (Concordance)",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\EvidenceQuality\\",
+      "recommendedStatus": "submission-ready",
+      "recommendedStatusLabel": "Submission ready",
+      "confidence": "high",
+      "score": 9,
+      "margin": 5,
+      "rationale": [
+        "Matched 'manuscript'",
+        "Matched 'bmj'"
+      ],
+      "sourceStatus": "6D quality concordance, 403 reviews, 14 tests, BMJ manuscript"
+    },
+    {
+      "id": "73f",
+      "name": "Living MA Engine",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\living-meta-engine\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 8,
+      "margin": 8,
+      "rationale": [
+        "Matched 'engine'",
+        "Matched 'configs'",
+        "Living workflow prior"
+      ],
+      "sourceStatus": "902L unified engine, 3 therapy configs"
+    },
+    {
+      "id": "69",
+      "name": "LivingMeta Watchman",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\LivingMeta_Watchman_Amulet\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 2,
+      "margin": 0,
+      "rationale": [
+        "Living workflow prior"
+      ],
+      "sourceStatus": "Living MA app"
+    },
+    {
+      "id": "106",
+      "name": "MA Power",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MAPowerCalc\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 10,
+      "margin": 10,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'v1.0'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.0, 25/25 tests, power + sample size + curves"
+    },
+    {
+      "id": "110",
+      "name": "MA Workbench",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MAWorkbench\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "high",
+      "score": 9,
+      "margin": 4,
+      "rationale": [
+        "Matched 'landing page'",
+        "Matched 'tool cards'"
+      ],
+      "sourceStatus": "SR workflow landing page, 30+ tool cards"
+    },
+    {
+      "id": "113",
+      "name": "Meta-Regression",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MetaRegression\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 6,
+      "margin": 3,
+      "rationale": [
+        "Matched 'v1.0'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.0, world-first browser meta-regression"
+    },
+    {
+      "id": "65",
+      "name": "MetaExtract",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\MetaExtract\\",
+      "recommendedStatus": "review",
+      "recommendedStatusLabel": "Review",
+      "confidence": "medium",
+      "score": 4,
+      "margin": 4,
+      "rationale": [
+        "Matched 'fixes done'"
+      ],
+      "sourceStatus": "P0+P1 fixes done"
+    },
+    {
+      "id": "79",
+      "name": "MetaGuard",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MetaGuard\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 14,
+      "margin": 14,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'v1.0'",
+        "Matched 'engine'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.0.0, 3 frontier engines (DPD+RTMA+MetaForest), 22/22 tests"
+    },
+    {
+      "id": "80",
+      "name": "MetaMethods",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\MetaMethods\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 13,
+      "margin": 13,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'module'",
+        "Matched 'methods'",
+        "Model prior"
+      ],
+      "sourceStatus": "6 advanced methods Python module, 30/30 tests"
+    },
+    {
+      "id": "108a",
+      "name": "MetaShift",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\MetaShift\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 6,
+      "margin": 6,
+      "rationale": [
+        "Matched 'v1.0'",
+        "Matched 'detection'"
+      ],
+      "sourceStatus": "v1.0, 1,325 lines, CUSUM/PELT changepoint detection for cumulative MA"
+    },
+    {
+      "id": "73",
+      "name": "minireview",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\minireview\\",
+      "recommendedStatus": "review",
+      "recommendedStatusLabel": "Review",
+      "confidence": "medium",
+      "score": 4,
+      "margin": 2,
+      "rationale": [
+        "Matched 'review'"
+      ],
+      "sourceStatus": "Quick review app"
+    },
+    {
+      "id": "73d",
+      "name": "new-app",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\new-app\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "low",
+      "score": 2,
+      "margin": 2,
+      "rationale": [
+        "Matched 'app'"
+      ],
+      "sourceStatus": "Minimal app"
+    },
+    {
+      "id": "73b",
+      "name": "oman",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\oman\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "low",
+      "score": 2,
+      "margin": 2,
+      "rationale": [
+        "Matched 'app'"
+      ],
+      "sourceStatus": "Oman HTA app"
+    },
+    {
+      "id": "70",
+      "name": "PFA AF LivingMeta",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\PFA_AF_LivingMeta\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 5,
+      "margin": 5,
+      "rationale": [
+        "Matched 'tracker'",
+        "Living workflow prior"
+      ],
+      "sourceStatus": "PFA AF tracker"
+    },
+    {
+      "id": "112",
+      "name": "Pooling Suite",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\PoolingSuite\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 6,
+      "margin": 6,
+      "rationale": [
+        "Matched 'v1.0'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.0, 15 estimators + LOO + Baujat + GOSH"
+    },
+    {
+      "id": "73e",
+      "name": "Portfolio Site",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\portfolio-site\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "high",
+      "score": 16,
+      "margin": 13,
+      "rationale": [
+        "Matched 'github pages ready'",
+        "Matched 'showcase'",
+        "Matched 'site'",
+        "Site naming prior"
+      ],
+      "sourceStatus": "794L showcase, GitHub Pages ready"
+    },
+    {
+      "id": "107",
+      "name": "PRISMA Checker",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\PRISMAChecker\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 10,
+      "margin": 10,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'v1.0'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.0, 25/25 tests, 27-item PRISMA 2020 + 6 extensions"
+    },
+    {
+      "id": "111",
+      "name": "Pub Bias Suite",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\PubBiasSuite\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 12,
+      "margin": 12,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'v1.0'",
+        "Matched 'methods'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.0, 25/25 tests, 12 methods + 3 funnel plots"
+    },
+    {
+      "id": "72",
+      "name": "rayyanreplacement",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\rayyanreplacement\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 2,
+      "margin": 2,
+      "rationale": [
+        "Matched 'tool'"
+      ],
+      "sourceStatus": "Screening tool"
+    },
+    {
+      "id": "104",
+      "name": "RMST Meta",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Root-level project",
+      "path": "C:\\RMSTmeta\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 3,
+      "margin": 0,
+      "rationale": [
+        "Matched 'v1.1'"
+      ],
+      "sourceStatus": "v1.1, 1,660 lines, REML+DL+Egger's, Stat Med target"
+    },
+    {
+      "id": "102",
+      "name": "RoB Assessor",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Model",
+      "path": "C:\\Models\\RoBAssessor\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "high",
+      "score": 10,
+      "margin": 10,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'v1.0'",
+        "Model prior"
+      ],
+      "sourceStatus": "v1.0, 25/25 tests, RoB 2 + ROBINS-I + guided judgments"
+    },
+    {
+      "id": "73c",
+      "name": "superapp",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\superapp\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "low",
+      "score": 2,
+      "margin": 2,
+      "rationale": [
+        "Matched 'app'"
+      ],
+      "sourceStatus": "Minimal app"
+    },
+    {
+      "id": "71",
+      "name": "Tricuspid TEER",
+      "tier": "Tier 10",
+      "tierName": "Tier 10 \u2014 Smaller / Standalone Apps",
+      "type": "Project",
+      "path": "C:\\Projects\\Tricuspid_TEER_LivingMeta\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Matched 'tracker'"
+      ],
+      "sourceStatus": "Tricuspid tracker"
+    },
+    {
+      "id": "76",
+      "name": "childnajia",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\childnajia\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "low",
+      "score": 2,
+      "margin": 2,
+      "rationale": [
+        "Matched 'app'"
+      ],
+      "sourceStatus": "Children's app"
+    },
+    {
+      "id": "75",
+      "name": "Private Website",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\private-website\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "high",
+      "score": 11,
+      "margin": 11,
+      "rationale": [
+        "Matched 'website'",
+        "Matched 'site'",
+        "Site naming prior"
+      ],
+      "sourceStatus": "OpenPalp booklet"
+    },
+    {
+      "id": "78",
+      "name": "Stories",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\Stories\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 0,
+      "margin": 0,
+      "rationale": [
+        "No rule-based signal exceeded zero."
+      ],
+      "sourceStatus": "CAST narrative"
+    },
+    {
+      "id": "77",
+      "name": "waternajia",
+      "tier": "Tier 11",
+      "tierName": "Tier 11 \u2014 Website & Non-Academic",
+      "type": "Project",
+      "path": "C:\\Projects\\waternajia\\",
+      "recommendedStatus": "shipped",
+      "recommendedStatusLabel": "Shipped",
+      "confidence": "low",
+      "score": 2,
+      "margin": 2,
+      "rationale": [
+        "Matched 'app'"
+      ],
+      "sourceStatus": "Water app"
+    },
+    {
+      "id": "97",
+      "name": "advanced-nma-pooling",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Advanced NMA research"
+    },
+    {
+      "id": "102",
+      "name": "claude-plugins",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Plugin experiments"
+    },
+    {
+      "id": "101",
+      "name": "claude-rct-work",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "RCT work"
+    },
+    {
+      "id": "85",
+      "name": "esc-acs-living-meta",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 1,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "ESC ACS living MA"
+    },
+    {
+      "id": "93",
+      "name": "everything-claude-code",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Claude Code guide"
+    },
+    {
+      "id": "80",
+      "name": "evidence-inference",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "ML evidence extraction"
+    },
+    {
+      "id": "91",
+      "name": "experimental-meta-analysis",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 3,
+      "margin": 0,
+      "rationale": [
+        "Matched 'analysis'"
+      ],
+      "sourceStatus": "Experimental MA"
+    },
+    {
+      "id": "104",
+      "name": "glm-code",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "GLM code"
+    },
+    {
+      "id": "83",
+      "name": "hfpef_registry_calibration",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "HFpEF calibration"
+    },
+    {
+      "id": "82",
+      "name": "hfpef_registry_synth",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "HFpEF CT.gov prefilter"
+    },
+    {
+      "id": "92",
+      "name": "idea12",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Research project"
+    },
+    {
+      "id": "94",
+      "name": "ipd-meta-pro-link",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "IPD MA link"
+    },
+    {
+      "id": "95",
+      "name": "ipd_qma_project",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "IPD QMA framework"
+    },
+    {
+      "id": "81",
+      "name": "llm-meta-analysis",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 3,
+      "margin": 0,
+      "rationale": [
+        "Matched 'analysis'"
+      ],
+      "sourceStatus": "LLM-based MA"
+    },
+    {
+      "id": "88",
+      "name": "MAFI",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Fragility index method"
+    },
+    {
+      "id": "89",
+      "name": "MAFI-Continuation",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "MAFI extension"
+    },
+    {
+      "id": "90",
+      "name": "maxent-reconstructor",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "MaxEnt KM reconstruction"
+    },
+    {
+      "id": "100",
+      "name": "MetaFusion-Lab",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "MetaFusion research"
+    },
+    {
+      "id": "86",
+      "name": "Metanew",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "submission-ready",
+      "recommendedStatusLabel": "Submission ready",
+      "confidence": "medium",
+      "score": 4,
+      "margin": 1,
+      "rationale": [
+        "Matched 'paper'"
+      ],
+      "sourceStatus": "Meta methods v2"
+    },
+    {
+      "id": "87",
+      "name": "MLM501",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Multilevel model 501"
+    },
+    {
+      "id": "103",
+      "name": "Multipledatameta",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Multiple data MA"
+    },
+    {
+      "id": "96",
+      "name": "prognostic-meta",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 4,
+      "margin": 1,
+      "rationale": [
+        "Matched 'tests'"
+      ],
+      "sourceStatus": "Prognostic MA app, 35/35 tests"
+    },
+    {
+      "id": "84",
+      "name": "registry_first_rct_meta",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Registry-first RCT MA"
+    },
+    {
+      "id": "99",
+      "name": "surroNMA",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Surrogate NMA"
+    },
+    {
+      "id": "98",
+      "name": "tower",
+      "tier": "Tier 12",
+      "tierName": "Tier 12 \u2014 Research Projects (C:\\Projects\\, various)",
+      "type": "Project",
+      "path": "C:\\Projects\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 3,
+      "margin": 1,
+      "rationale": [
+        "Generic root path penalty"
+      ],
+      "sourceStatus": "Bash+Python+JS tool"
+    },
+    {
+      "id": "39",
+      "name": "CausalSynth",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Model",
+      "path": "C:\\Models\\CausalSynth\\",
+      "recommendedStatus": "submission-ready",
+      "recommendedStatusLabel": "Submission ready",
+      "confidence": "high",
+      "score": 13,
+      "margin": 10,
+      "rationale": [
+        "Matched 'paper'",
+        "Matched 'ready'",
+        "Matched 'complete'",
+        "Matched 'f1000'"
+      ],
+      "sourceStatus": "Phase 1 complete"
+    },
+    {
+      "id": "40",
+      "name": "MAPriors",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Model",
+      "path": "C:\\Models\\MAPriors\\",
+      "recommendedStatus": "submission-ready",
+      "recommendedStatusLabel": "Submission ready",
+      "confidence": "high",
+      "score": 13,
+      "margin": 10,
+      "rationale": [
+        "Matched 'paper'",
+        "Matched 'ready'",
+        "Matched 'complete'",
+        "Matched 'f1000'"
+      ],
+      "sourceStatus": "Phase 1 complete"
+    },
+    {
+      "id": "38",
+      "name": "MultiverseMA",
+      "tier": "Tier 5",
+      "tierName": "Tier 5 \u2014 Cutting-Edge MA Trio + New Root-Level Methods (2026-03-24/25)",
+      "type": "Model",
+      "path": "C:\\Models\\MultiverseMA\\",
+      "recommendedStatus": "submission-ready",
+      "recommendedStatusLabel": "Submission ready",
+      "confidence": "high",
+      "score": 13,
+      "margin": 10,
+      "rationale": [
+        "Matched 'paper'",
+        "Matched 'ready'",
+        "Matched 'complete'",
+        "Matched 'f1000'"
+      ],
+      "sourceStatus": "Phase 1 complete"
+    },
+    {
+      "id": "43",
+      "name": "CochraneDataExtractor",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\CochraneDataExtractor\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 5,
+      "margin": 5,
+      "rationale": [
+        "Matched 'extractor'",
+        "Matched 'tool'"
+      ],
+      "sourceStatus": "Data extraction tool"
+    },
+    {
+      "id": "44",
+      "name": "Dataextractor",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\Dataextractor\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Matched 'extractor'"
+      ],
+      "sourceStatus": "v4.9.5, 100% on 65 trials"
+    },
+    {
+      "id": "48",
+      "name": "DTA70",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\DTA70\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Matched 'dataset'"
+      ],
+      "sourceStatus": "DTA dataset"
+    },
+    {
+      "id": "45",
+      "name": "KMcurve",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\KMcurve\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 0,
+      "margin": 0,
+      "rationale": [
+        "No rule-based signal exceeded zero."
+      ],
+      "sourceStatus": "TrOCR neural OCR"
+    },
+    {
+      "id": "42",
+      "name": "Pairwise70",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Model",
+      "path": "C:\\Models\\Pairwise70\\",
+      "recommendedStatus": "review",
+      "recommendedStatusLabel": "Review",
+      "confidence": "medium",
+      "score": 4,
+      "margin": 1,
+      "rationale": [
+        "Matched 'review'"
+      ],
+      "sourceStatus": "501 Cochrane reviews, needs Zenodo"
+    },
+    {
+      "id": "41",
+      "name": "RCT Extractor v2",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\rct-extractor-v2\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 7,
+      "margin": 7,
+      "rationale": [
+        "Matched 'tests'",
+        "Matched 'extractor'"
+      ],
+      "sourceStatus": "v10.3, 863 tests, 94.6% accuracy"
+    },
+    {
+      "id": "46",
+      "name": "repo100",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\repo100\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 3,
+      "margin": 3,
+      "rationale": [
+        "Matched 'dataset'"
+      ],
+      "sourceStatus": "Dataset collection docs"
+    },
+    {
+      "id": "47",
+      "name": "repo300-ENMA-SNMA",
+      "tier": "Tier 6",
+      "tierName": "Tier 6 \u2014 Infrastructure & Datasets",
+      "type": "Project",
+      "path": "C:\\Projects\\repo300-ENMA-SNMA\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 0,
+      "margin": 0,
+      "rationale": [
+        "No rule-based signal exceeded zero."
+      ],
+      "sourceStatus": "Simulation study"
+    },
+    {
+      "id": "56",
+      "name": "Fatiha Course",
+      "tier": "Tier 8",
+      "tierName": "Tier 8 \u2014 Educational & Course Material",
+      "type": "Project",
+      "path": "C:\\Projects\\Fatiha-Course\\",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "low",
+      "score": 1,
+      "margin": 1,
+      "rationale": [
+        "Course naming prior"
+      ],
+      "sourceStatus": "Large (~1.3M lines), course material"
+    },
+    {
+      "id": "57",
+      "name": "Fatiha Course v2",
+      "tier": "Tier 8",
+      "tierName": "Tier 8 \u2014 Educational & Course Material",
+      "type": "Project",
+      "path": "C:\\Projects\\Fatiha-course-github-v2\\",
+      "recommendedStatus": "submission-ready",
+      "recommendedStatusLabel": "Submission ready",
+      "confidence": "low",
+      "score": 3,
+      "margin": 2,
+      "rationale": [
+        "Matched 'ready'"
+      ],
+      "sourceStatus": "GitHub-ready version"
+    },
+    {
+      "id": "55",
+      "name": "Synthesis Course",
+      "tier": "Tier 8",
+      "tierName": "Tier 8 \u2014 Educational & Course Material",
+      "type": "Course material",
+      "path": "(in HTML apps or user home)",
+      "recommendedStatus": "active",
+      "recommendedStatusLabel": "Active",
+      "confidence": "medium",
+      "score": 6,
+      "margin": 4,
+      "rationale": [
+        "Matched 'module'",
+        "Course material prior",
+        "Course naming prior"
+      ],
+      "sourceStatus": "25 modules EN+FR, 16,760 lines"
+    },
+    {
+      "id": "59",
+      "name": "Burhan",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Project",
+      "path": "C:\\Projects\\Burhan\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 0,
+      "margin": 0,
+      "rationale": [
+        "No rule-based signal exceeded zero."
+      ],
+      "sourceStatus": "TruthCert features"
+    },
+    {
+      "id": "60",
+      "name": "IPD Zahid",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Project",
+      "path": "C:\\Projects\\IPD Zahid\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 0,
+      "margin": 0,
+      "rationale": [
+        "No rule-based signal exceeded zero."
+      ],
+      "sourceStatus": "IPD collaboration"
+    },
+    {
+      "id": "61",
+      "name": "WorldIPD",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Project",
+      "path": "C:\\Projects\\WorldIPD\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 0,
+      "margin": 0,
+      "rationale": [
+        "No rule-based signal exceeded zero."
+      ],
+      "sourceStatus": "Orchestrator-based"
+    },
+    {
+      "id": "62",
+      "name": "WorldIPD-private",
+      "tier": "Tier 9",
+      "tierName": "Tier 9 \u2014 Collaborative & External",
+      "type": "Project",
+      "path": "C:\\Projects\\WorldIPD-private\\",
+      "recommendedStatus": "needs-triage",
+      "recommendedStatusLabel": "Needs triage",
+      "confidence": "low",
+      "score": 0,
+      "margin": 0,
+      "rationale": [
+        "No rule-based signal exceeded zero."
+      ],
+      "sourceStatus": "Private scaffold"
+    }
+  ]
+}
