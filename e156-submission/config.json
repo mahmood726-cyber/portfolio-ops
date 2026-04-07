@@ -37,5 +37,9 @@
       "role": "Boundary",
       "text": "The cockpit improves coordination, but it inherits snapshot lag and cannot guarantee that a high readiness score reflects real scientific quality."
     }
-  ]
+  ],
+  "author": "Mahmood Ahmad",
+  "affiliation": "Tahir Heart Institute",
+  "email": "mahmood.ahmad2@nhs.net",
+  "submitted": false
 }
