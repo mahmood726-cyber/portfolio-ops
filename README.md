@@ -33,9 +33,9 @@ What it still lacked was one project that combines those signals and turns them 
 
 ## Rebuild
 
-Run:
+Run from the repo root:
 
-`python C:\Users\user\PortfolioOps\scripts\build_portfolio_ops.py`
+`python scripts/build_portfolio_ops.py`
 
 ## Scope note
 
